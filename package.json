@@ -1,0 +1,21 @@
+{
+  "name": "user-agent-collector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "useragent",
+    "collection"
+  ],
+  "author": "delyachmad@gmail.com",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.11",
+    "moment": "^2.29.3",
+    "noodlejs": "^0.3.2"
+  }
+}
