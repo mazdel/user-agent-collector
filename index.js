@@ -98,7 +98,7 @@ const addUserAgentToJSON = (deviceTobeSaved = {}, jsonFileName = 'user-agents.js
       return false;
     }
   } else {
-    console.log('not Unique', deviceTobeSaved);
+    // console.log('not Unique', deviceTobeSaved);
     return false;
   }
 };
