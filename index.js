@@ -90,7 +90,7 @@ const addUserAgentToJSON = (deviceTobeSaved = {}, jsonFileName = 'user-agents.js
   if (isUnique) {
     const content = [...lastSaved, deviceTobeSaved];
     try {
-      fs.writeFileSync(filePath, JSON.stringify(content));
+      fs.writeFileSync(filePath, JSON.stringify(content, null, '  '));
       // console.log(content);
       return true;
     } catch (error) {
